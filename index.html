@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="h-100">
+			<div class="container h-100">
+				<div class="row justify-content-sm-center h-100">
+					<div class="col-md-5">
+						<div class="text-center my-5">
+							<i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+						</div>
+
+						<div class="card shadow-lg">
+							<div class="card-body p-5">
+								<h1 class="card-title fs-4 fw-bold mb-4 text-center">Login</h1>
+								<form action="login.php" method="post">
+									<div class="mb-3">
+										<label for="username" class="mb-2 text-muted">User Name</label>
+										<input type="text" name="name" placeholder="User Name" class="form-control" required autofocus>
+									</div>
+									<div class="mb-3">
+										<label for="userpass" class="mb-2 text-muted">User Password</label>
+										<input type="password" name="pass" placeholder="Password" class="form-control" required>
+									</div>
+									<div class="mb-3">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="usertype" id="inlineRadio1" value="employee">
+											<label class="form-check-label" for="inlineRadio1">Employee</label>
+										  </div>
+										  <div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="usertype" id="inlineRadio2" value="jobseeker">
+											<label class="form-check-label" for="inlineRadio2">Job Seeker</label>
+										  </div>
+									</div>
+									<div class="d-flex align-items-center">
+										<button type="submit" name="btn" class="btn btn-primary ms-auto">Login</button>
+									</div>
+								</form>
+
+								<div class="d-flex mt-3 p-1">
+									<h4 class="">Create an Account</h4><a class="pl-2 pt-1" href="registration.html">click here!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

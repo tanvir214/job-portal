@@ -1,0 +1,61 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fa.fa-user-circle {
+	font-size: 125px;
+	color: #000;
+}
+
+
+.card-stats {
+    background-color: #f1f3f6;
+    margin: 2%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #02b6ff;
+    cursor: pointer;
+  }
+
+
+  a {
+	  text-decoration: none;
+  }
+
+  a:hover {
+	  text-decoration: none;
+  }
+
+
+  .font-title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .font-job-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .font-job-p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .apply-btn {
+    padding: 10px 35px;
+    background: #060606;
+    color: #ffffff;
+    font-family: "CircularStdBlack", sans-serif;
+    border: 1px solid #060606;
+    box-shadow: rgb(6 6 6 / 30%) 0px 0px 19px;
+    border-radius: 45px;
+    margin: 20px 0;
+  }
